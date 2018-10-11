@@ -28,7 +28,7 @@ Namespace MVCDashboard_ServerSideAPI
 
         Public Overrides Function CreateController(ByVal requestContext As RequestContext,
                                                    ByVal controllerName As String) As IController
-            If controllerName = "SalesDashobard" Then
+            If controllerName = "SalesDashboard" Then
                 Dim salesConfigurator As New DashboardConfigurator()
                 salesConfigurator.SetDashboardStorage(New DashboardFileStorage("~/App_Data/Sales"))
                 AddHandler salesConfigurator.ConfigureDataConnection, Sub(s, e)

@@ -23,7 +23,7 @@ namespace MvcDashboard_ServerSideApi {
 
     public class CustomControllerFactory : DefaultControllerFactory {
         public override IController CreateController(RequestContext requestContext, string controllerName) {
-            if (controllerName == "SalesDashobard") {
+            if (controllerName == "SalesDashboard") {
                 DashboardConfigurator salesConfigurator = new DashboardConfigurator();
                 salesConfigurator.SetDashboardStorage(new DashboardFileStorage(@"~/App_Data/Sales"));
                 salesConfigurator.ConfigureDataConnection += (s, e) => {
