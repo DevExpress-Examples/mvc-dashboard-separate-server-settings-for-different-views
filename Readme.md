@@ -1,3 +1,14 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [DashboardConfig.cs](./CS/MvcDashboard_ServerSideApi/App_Start/DashboardConfig.cs) (VB: [DashboardConfig.vb](./VB/MvcDashboard_ServerSideApi/App_Start/DashboardConfig.vb))
+* [HomeController.cs](./CS/MvcDashboard_ServerSideApi/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/MvcDashboard_ServerSideApi/Controllers/HomeController.vb))
+* [Global.asax.cs](./CS/MvcDashboard_ServerSideApi/Global.asax.cs) (VB: [Global.asax.vb](./VB/MvcDashboard_ServerSideApi/Global.asax.vb))
+* [Index.cshtml](./CS/MvcDashboard_ServerSideApi/Views/Home/Index.cshtml)
+* [MarketingView.cshtml](./CS/MvcDashboard_ServerSideApi/Views/Home/MarketingView.cshtml)
+* [SalesView.cshtml](./CS/MvcDashboard_ServerSideApi/Views/Home/SalesView.cshtml)
+* [_Layout.cshtml](./CS/MvcDashboard_ServerSideApi/Views/Shared/_Layout.cshtml)
+<!-- default file list end -->
 # ASP.NET MVC Dashboard - How to use separate server-side settings for different views
 
 
