@@ -11,7 +11,7 @@
 <!-- default file list end -->
 # ASP.NET MVC Dashboard - How to use separate server-side settings for different views
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t464543)**
+**[[Run Online]](https://codecentral.devexpress.com/t464543/)**
 <!-- run online end -->
 
 
