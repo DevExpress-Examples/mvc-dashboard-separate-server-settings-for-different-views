@@ -17,6 +17,8 @@
 
 This example shows how to use separate <a href="https://documentation.devexpress.com/#Dashboard/clsDevExpressDashboardWebDashboardConfiguratortopic">DashboardConfigurator</a> instances within an <a href="https://documentation.devexpress.com/#Dashboard/CustomDocument116420">ASP.NET MVC Dashboard</a> application to provide different server-side settings. In this example, the <em>Sales </em>and <em>Marketing </em>views use different dashboard storage and different data connections.
 
+Dashboard controllers are defined in the [Global.asax.cs](./CS/MvcDashboard_ServerSideApi/Global.asax.cs) (VB: [Global.asax.vb](./VB/MvcDashboard_ServerSideApi/Global.asax.vb)) file.
+
 <br/>
 
 
