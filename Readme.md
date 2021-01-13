@@ -15,10 +15,8 @@
 <!-- run online end -->
 
 
-This example shows how to use separate <a href="https://documentation.devexpress.com/#Dashboard/clsDevExpressDashboardWebDashboardConfiguratortopic">DashboardConfigurator</a> instances within an <a href="https://documentation.devexpress.com/#Dashboard/CustomDocument116420">ASP.NET MVC Dashboard</a> application to provide different server-side settings. In this example, the <em>Sales </em>and <em>Marketing </em>views use different dashboard storage and different data connections.
+This example shows how to use separate [DashboardConfigurator](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.DashboardConfigurator) instances within an [ASP.NET MVC Dashboard](https://docs.devexpress.com/Dashboard/16977/web-dashboard/aspnet-mvc-dashboard-extension) application to provide different server-side settings. In this example, the _Sales_ and _Marketing_ views use different dashboard storage and different data connections.
 
 Dashboard controllers are defined in the [Global.asax.cs](./CS/MvcDashboard_ServerSideApi/Global.asax.cs) (VB: [Global.asax.vb](./VB/MvcDashboard_ServerSideApi/Global.asax.vb)) file.
 
-<br/>
-
-
+Note that the Web Dashboard control uses a single cache. The use of separate DashboardConfigurator instances does not create separated caches. Create a [custom parameter](https://docs.devexpress.com/Dashboard/118651/web-dashboard/general-information/security-considerations#cache-security) to specify a different cache for different user roles.
