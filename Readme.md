@@ -20,3 +20,11 @@ This example shows how to use separate [DashboardConfigurator](https://docs.dev
 Dashboard controllers are defined in the [Global.asax.cs](./CS/MvcDashboard_ServerSideApi/Global.asax.cs) (VB: [Global.asax.vb](./VB/MvcDashboard_ServerSideApi/Global.asax.vb)) file.
 
 Note that the Web Dashboard control uses a single cache. The use of separate DashboardConfigurator instances does not create separated caches. Create a [custom parameter](https://docs.devexpress.com/Dashboard/118651/web-dashboard/general-information/security-considerations#cache-security) to specify a different cache for different user roles.
+
+## Documentation
+
+- [Manage Multi-Tenancy](https://docs.devexpress.com/Dashboard/402924/web-dashboard/dashboard-backend/manage-multi-tenancy)
+
+## More Examples
+- [ASP.NET MVC Dashboard - How to load different data based on the current user](https://github.com/DevExpress-Examples/DashboardDifferentUserDataMVC)
+- [ASP.NET MVC Dashboard - How to implement multi-tenant Dashboard architecture](https://github.com/DevExpress-Examples/DashboardUserBasedMVC)
