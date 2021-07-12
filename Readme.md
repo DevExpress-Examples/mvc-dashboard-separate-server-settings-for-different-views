@@ -28,3 +28,4 @@ Note that the Web Dashboard control uses a single cache. The use of separate Das
 ## More Examples
 - [ASP.NET MVC Dashboard - How to load different data based on the current user](https://github.com/DevExpress-Examples/DashboardDifferentUserDataMVC)
 - [ASP.NET MVC Dashboard - How to implement multi-tenant Dashboard architecture](https://github.com/DevExpress-Examples/DashboardUserBasedMVC)
+- [ASP.NET Core Dashboard - How to use separate server-side settings for different views](https://github.com/DevExpress-Examples/asp-net-core-dashboard-how-to-use-separate-server-side-settings-for-different-views)
