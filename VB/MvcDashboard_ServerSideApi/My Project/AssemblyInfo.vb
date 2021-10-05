@@ -5,11 +5,11 @@ Imports System.Runtime.InteropServices
 ' General Information about an assembly is controlled through the following 
 ' set of attributes. Change these attribute values to modify the information
 ' associated with an assembly.
-<Assembly: AssemblyTitle("MVCDashboard_ServerSideAPI")>
+<Assembly: AssemblyTitle("MvcDashboard_ServerSideApi")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyConfiguration("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("MVCDashboard_ServerSideAPI")>
+<Assembly: AssemblyProduct("MvcDashboard_ServerSideApi")>
 <Assembly: AssemblyCopyright("Copyright ? 2017")>
 <Assembly: AssemblyTrademark("")>
 <Assembly: AssemblyCulture("")>

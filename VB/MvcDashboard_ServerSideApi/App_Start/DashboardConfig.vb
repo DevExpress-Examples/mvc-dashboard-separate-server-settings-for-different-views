@@ -1,9 +1,9 @@
-﻿Imports System.Web.Routing
-Imports DevExpress.DashboardWeb.Mvc
+﻿Imports DevExpress.DashboardWeb.Mvc
+Imports System.Web.Routing
 
 Public Class DashboardConfig
-    Public Shared Sub RegisterService(ByVal routes As RouteCollection)
-        routes.MapDashboardRoute("MarketingDashboard", "MarketingDashboard", {"MVCDashboard_ServerSideAPI"})
-        routes.MapDashboardRoute("SalesDashboard", "SalesDashboard", {"MVCDashboard_ServerSideAPI"})
-    End Sub
+	Public Shared Sub RegisterService(ByVal routes As RouteCollection)
+		routes.MapDashboardRoute("MarketingDashboard", "MarketingDashboard")
+		routes.MapDashboardRoute("SalesDashboard", "SalesDashboard")
+	End Sub
 End Class

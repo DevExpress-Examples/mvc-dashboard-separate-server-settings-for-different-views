@@ -3,9 +3,9 @@ using System.Web.Hosting;
 using System.Web.Mvc;
 using System.Web.Routing;
 using DevExpress.DashboardWeb;
-using DevExpress.DashboardWeb.Mvc;
 using DevExpress.DataAccess.ConnectionParameters;
 using DevExpress.Web;
+using MvcDashboard_ServerSideApi.Controllers;
 
 namespace MvcDashboard_ServerSideApi {
     public class MvcApplication : System.Web.HttpApplication {
@@ -31,20 +31,20 @@ namespace MvcDashboard_ServerSideApi {
                     if (e.ConnectionName == "Northwind connection")
                         e.ConnectionParameters = new Access97ConnectionParameters(databasePath, "", "");
                 };
-                return new DashboardController(salesConfigurator);
+                return new DefaultDashboardController(salesConfigurator);
             }
             else if (controllerName == "MarketingDashboard") {
                 DashboardConfigurator marketingConfigurator = new DashboardConfigurator();
                 marketingConfigurator.SetDashboardStorage(new DashboardFileStorage(@"~/App_Data/Marketing"));
                 marketingConfigurator.ConfigureDataConnection += (s, e) => {
                     string connectionString = @"provider=MSOLAP;
-                                  data source=https://demos.devexpress.com/Services/OLAP/msmdpump.dll;
+                                  data source=http://demos.devexpress.com/Services/OLAP/msmdpump.dll;
                                   initial catalog=Adventure Works DW Standard Edition;
                                   cube name=Adventure Works;";
                     if (e.ConnectionName == "Adventure Works connection")
                         e.ConnectionParameters = new OlapConnectionParameters(connectionString);
                 };
-                return new DashboardController(marketingConfigurator);
+                return new DefaultDashboardController(marketingConfigurator);
             }
             else {
                 return base.CreateController(requestContext, controllerName);
