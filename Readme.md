@@ -5,7 +5,7 @@
 <!-- default badges end -->
 <!-- default file list -->
 
-# ASP.NET MVC Dashboard - How to use separate server-side settings for different views
+# Dashboard for MVC - How to use separate server-side settings for different views
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/128579193/)**
 <!-- run online end -->
