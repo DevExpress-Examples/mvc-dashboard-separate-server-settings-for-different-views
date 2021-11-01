@@ -12,6 +12,7 @@ Namespace MVCDashboard_ServerSideAPI
         Inherits System.Web.HttpApplication
 
         Protected Sub Application_Start()
+            ControllerBuilder.Current.SetControllerFactory(GetType(RestrictedControllerFactory))
             DashboardConfig.RegisterService(RouteTable.Routes)
             RouteConfig.RegisterRoutes(RouteTable.Routes)
             AddHandler ASPxWebControl.CallbackError, AddressOf Application_Error
