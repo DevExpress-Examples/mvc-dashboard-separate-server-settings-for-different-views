@@ -6,9 +6,6 @@
 <!-- default file list -->
 
 # BI Dashboard for MVC - How to use separate server-side settings for different views
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128579193/)**
-<!-- run online end -->
 
 This example shows how to use separate [DashboardConfigurator](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.DashboardConfigurator) instances within an [ASP.NET MVC Dashboard](https://docs.devexpress.com/Dashboard/16977/web-dashboard/aspnet-mvc-dashboard-extension) application to provide different server-side settings. In this example, the _Sales_ and _Marketing_ views use different dashboard storage and different data connections
 
