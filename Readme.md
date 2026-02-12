@@ -34,7 +34,7 @@ Note that the Web Dashboard control uses a single cache. The use of separate Das
 - [ASP.NET MVC Dashboard - How to implement multi-tenant Dashboard architecture](https://github.com/DevExpress-Examples/DashboardUserBasedMVC)
 - [ASP.NET Core Dashboard - How to use separate server-side settings for different views](https://github.com/DevExpress-Examples/asp-net-core-dashboard-how-to-use-separate-server-side-settings-for-different-views)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=mvc-dashboard-separate-server-settings-for-different-views&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=mvc-dashboard-separate-server-settings-for-different-views&~~~was_helpful=no)
 
