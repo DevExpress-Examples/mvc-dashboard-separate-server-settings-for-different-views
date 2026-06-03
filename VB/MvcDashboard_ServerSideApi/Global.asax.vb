@@ -42,7 +42,7 @@ Namespace MvcDashboard_ServerSideApi
 				marketingConfigurator.SetDashboardStorage(New DashboardFileStorage("~/App_Data/Marketing"))
 				AddHandler marketingConfigurator.ConfigureDataConnection, Sub(s, e)
 					Dim connectionString As String = "provider=MSOLAP;" & ControlChars.CrLf & _
-"                                  data source=http://demos.devexpress.com/Services/OLAP/msmdpump.dll;" & ControlChars.CrLf & _
+"                                  data source=https://demos.devexpress.com/Services/OLAP/msmdpump.dll;" & ControlChars.CrLf & _
 "                                  initial catalog=Adventure Works DW Standard Edition;" & ControlChars.CrLf & _
 "                                  cube name=Adventure Works;"
 					If e.ConnectionName = "Adventure Works connection" Then

@@ -38,7 +38,7 @@ namespace MvcDashboard_ServerSideApi {
                 marketingConfigurator.SetDashboardStorage(new DashboardFileStorage(@"~/App_Data/Marketing"));
                 marketingConfigurator.ConfigureDataConnection += (s, e) => {
                     string connectionString = @"provider=MSOLAP;
-                                  data source=http://demos.devexpress.com/Services/OLAP/msmdpump.dll;
+                                  data source=https://demos.devexpress.com/Services/OLAP/msmdpump.dll;
                                   initial catalog=Adventure Works DW Standard Edition;
                                   cube name=Adventure Works;";
                     if (e.ConnectionName == "Adventure Works connection")
